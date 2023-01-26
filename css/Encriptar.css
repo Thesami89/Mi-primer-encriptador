@@ -1,0 +1,327 @@
+body{
+    background-color: #E5E5E5;
+    height: 100%;
+}
+.bonito{
+    width: auto ;
+    margin-left: 100px;
+    height: 100%;
+
+}
+
+.encabezado{
+    display: flex;
+    font-size: 25px;
+    
+}
+
+.logo1{
+    padding: 25px;
+    width: 32px;
+    height: 55px;
+}
+
+
+.titulo{
+    color:#0A3871;
+    padding-left: 150px;
+
+    
+
+}
+.cuadro{
+    display: flex;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.cuadroTexto{
+    margin-left: 85px;
+    padding-left: 35px;
+    display: block;
+
+}
+
+.caja1{
+    font-size: 32px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: none;
+    background-color: transparent;
+    color: #0A3871;
+    border-radius: 15px;
+
+}
+
+.caja1::placeholder{
+    color: #0A3871;
+}
+
+.espacio{
+    width: 500px;
+    background-color: white;
+    height: 600px;
+    margin-left: 200px;
+    border-radius: 32px ;
+    display:block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #0A3871;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+}
+.espacio p{
+    color: #0A3871;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+
+.espacio img{
+    align-items: center;
+    text-align: center;
+}
+
+.alerta{
+    display: flex;
+    gap: 5px;
+    width: 1000px;
+    margin-left: 150px;
+
+}
+
+.alerta img{
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+
+}
+
+.letras{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 12px;
+}
+
+.acomodar{
+    display: flex;
+    gap: 35px;
+    width: 1000px;
+    align-items: center;
+    justify-content: center;
+}
+
+.botonEncriptar{
+    width: 328px;
+    height: 67px;
+    background: #0A3871;
+    border-radius: 24px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.botonEncriptar:hover{
+    background-color: #0a3871bf;
+    transform: scale(1.05);
+}
+
+.botonEncriptar2{
+    width: 328px;
+    height: 67px;
+    background: #D8DFE8;
+    border-radius: 24px;
+    color: #0A3871;
+    text-align: center;
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-color: #0A3871;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.botonEncriptar2:hover{
+    background-color: #acc8effd;
+    transform: scale(1.05);
+}
+
+.piePagina{
+    background-color: lightgray;
+    height: 250px;
+    margin: 25px;
+}
+
+.piePagina2{
+    color: black;
+    font-size: 23px;
+    text-align: center;
+    padding: 75px;
+}
+
+.botoncopiar{
+    width: 328px;
+    height: 67px;
+    background: white;
+    border-radius: 24px;
+    color:#0A3871;
+    text-align: center;
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: block;
+    margin-left: 80px;
+    margin-top: 15px;
+
+
+}
+
+.botoncopiar:hover{
+    width: 330px;
+    height: 69px;
+}
+@media screen and (max-width: 1555px){
+    body{
+        width: auto;
+    }
+    .bonito{
+        width: auto;
+        margin: 0%;
+    }
+
+    /*.logo1{
+        width: 50%;
+    }*/
+
+    .encabezado{
+        width: 97%;
+        height: auto;
+    }
+
+    .titulo{
+        padding-left: 50px;
+    }
+
+    .espacio{
+        width: 30%;
+        height: auto;
+        margin: 1% 0% 0% 0%;
+
+    }
+
+    .acomodar{
+        width: 65%;
+    }
+    
+    
+}
+
+@media screen and (max-width: 1001px){
+    body{
+        width: auto;
+    }
+    .bonito{
+        width: auto;
+        margin: 0%;
+    }
+
+    /*.logo1{
+        width: 50%;
+    }*/
+
+    .encabezado{
+        width: 97%;
+        height: auto;
+    }
+
+    .titulo{
+        padding-left: 50px;
+    }
+
+    .espacio{
+        width: 99%;
+        height: auto;
+        margin: 1% 0% 0% 0%;
+
+    }
+
+    .acomodar{
+        width: 65%;
+    }
+    
+    
+}
+
+@media screen and (max-width: 767px){
+    body{
+        width: auto;
+    }
+    .bonito{
+        width: auto;
+        margin: 0%;
+    }
+
+    /*.logo1{
+        width: 50%;
+    }*/
+
+    .encabezado{
+        width: 97%;
+        height: auto;
+    }
+
+    .titulo{
+        padding-left: 50px;
+    }
+
+    .espacio{
+        width: 99%;
+        height: auto;
+        margin: 1% 0% 0% 0%;
+
+    }
+
+    .acomodar{
+        width: 65%;
+    }
+    
+    
+}
+
+@media screen and (max-width: 400px){
+    .titulo{
+        font-size: 25px;
+        padding: 0px;
+    }
+
+    .bonito{
+        height: 1100px;
+    }
+
+    .cuadro{
+        display: block;
+    }
+
+    .cuadroTexto{
+        margin-left: auto;
+        padding-left: 35px;
+        display: block;
+        padding: 0px;
+    }
+
+    .caja1{
+        padding: 25px 0px 0px 0px;
+    }
+
+    .alerta{
+        margin: 0px;
+    }
+
+    .acomodar{
+        display: block;
+        
+    }
+
+    
+}
